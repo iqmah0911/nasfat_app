@@ -1,0 +1,24 @@
+.nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: blue;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-header {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    border-style: solid;
+}
+.right-header{
+    
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    width: 30%;
+    
+}
